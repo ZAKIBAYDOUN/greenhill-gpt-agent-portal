@@ -1,23 +1,15 @@
 
-# Green Hill GPT – Investor Assistant
+# Green Hill GPT – Investor Assistant (GPT-4o)
 
-## 🌱 Overview
-This is the fully branded investor-facing assistant for Green Hill Canarias, powered by GPT-4.
+Uses OpenAI `gpt-4o` model for fast, accurate investor Q&A.
 
-## ✅ Files Included
-- `greenhill_gpt_portal_landing_branded.py`: The AI interface
-- `logo.png`: GHC Intelligent Roots logo
-- `ChatGPT Image 30 jul 2025, 00_34_09.png`: Alternate Green Hill brand variant
-- `qr_code_updated.png`: QR code for quick access
-- `requirements.txt`: Python dependencies
-- `README_UPDATED.md`: Deployment guide
+## Includes
+- Main App: `greenhill_gpt_portal_sdk_v1_gpt4o.py`
+- Branding: `logo.png`, `greenhill_variant.png`
+- Sharing: `GreenHill_GPT_Investor_QR_FINAL.png`
+- Setup: `requirements.txt`, `README.md`
 
-## 🚀 Deployment Instructions
-
-1. Create a GitHub repository and upload all files.
-2. Sign in to https://streamlit.io/cloud and deploy the app.
-3. Set your OpenAI key under *Settings > Secrets*:
-   ```
-   OPENAI_API_KEY = sk-...
-   ```
-4. Share the app link with investors or embed the included QR code in your materials.
+## Deploy
+1. Push to GitHub
+2. Deploy on Streamlit Cloud
+3. Add `OPENAI_API_KEY = "sk-..."` to Secrets
